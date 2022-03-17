@@ -1,0 +1,174 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.main{background-color: #3b5998;
+ border-bottom: 1px solid;
+ height: 82.3px;
+}
+
+.header-block{
+	    margin: 0 auto;
+    width: 100%px;
+    height: 800px;
+}
+.logo{
+	width: 40%;
+	float: left;
+}
+.logo img{
+	padding-top: 30px;
+	padding-bottom: 20px;
+	width: 200px;
+	height:50px;
+	margin-bottom: 10px;
+}
+
+.header-block label{
+	color: #fff;
+}
+
+.login{
+    float: right;
+    width: 60%;
+    margin-top: 20px;
+    
+}
+.email{
+	float: left;
+	margin-right: 4px;
+
+
+}
+.email label{
+	padding-bottom: 10px;
+}
+.password{
+	float: left;
+
+}
+.password a{ color: #83b4d4;
+font-size: 12.5px;
+
+} 
+
+.container{
+	background: #dfe2ee;
+	width: auto;
+	height: 700px;
+}
+
+
+.login-button{float: left;
+	padding-left: 10px;
+    padding-top: 20px;
+
+}
+.login-button input{
+	width: 160%;
+	background: #4267b2;
+	color: #fff;
+	border: 1px solid #29487d;
+	height:24px;		
+}
+.content-logo{
+	
+	width: 922px;
+	margin: 0 auto;
+}
+.content{
+	color: #0e385f;
+
+padding-top: 20px;
+
+font-size: 25px;
+font-weight: bold;
+line-height: 29px;
+
+
+
+
+}
+
+
+.clearfix{
+clear: both;}
+
+.create-account{
+	position: relative;
+	float: right;
+	right: 89px;
+	width: 35%;
+	top: -300px;
+
+
+}
+.create-account h2{
+	font-size: 40px;
+}
+.create-account p{
+	font-size: 24px;
+	font-weight: bold;
+	margin-top: 20px,
+	margin-bottom:20px;
+
+}
+.account input[type='text']{
+	 	margin-bottom: 15px;
+	border-radius: 5px;
+	border: 1px solid #bdc7d8;
+font-size: 16px;
+padding: 10px;}
+.account input[type='password']{
+	
+	margin-bottom: 15px;
+	
+	padding: 10px;
+	font-size: 16px;
+	margin-left: 0px;
+	border: 1px solid #bdc7d8;
+	width: 84%
+}
+.account .mobile, .account .passwor{width: 84% ! important;}
+.account label{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+.account a{
+	text-decoration: none;
+	color: #3677bc;
+}
+.account input[type="radio"]{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.account .by-clicking{
+	color: #77777a;
+}
+.account input[type="submit"]{
+	padding: 15px 22px;
+	background:linear-gradient( #66ab53,#578943);
+	border: 1px solid #3b6e22;
+	border-radius: 5px;
+	font-size: 25px;
+	color:#fff;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+
+}
+nav{ text-align: center;
+font-size: 19px;
+padding-left: 50px;
+ }
+nav ul li{
+	display: inline-block;
+	color: #367cc2;
+
+	}
+footer{
+	color: #737373;
+	text-align:right;
+	padding-left: 30px;
+}
